@@ -1,0 +1,33 @@
+{
+  "name": "@kyoko-finance/kyoko-js",
+  "version": "0.0.1",
+  "description": "JavaScript library for kyoko.finance",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyoko-finance/kyoko-js.git"
+  },
+  "author": "matt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kyoko-finance/kyoko-js/issues"
+  },
+  "homepage": "https://github.com/kyoko-finance/kyoko-js#readme",
+  "dependencies": {
+    "bignumber.js": "^9.1.2",
+    "ethers": "^6.8.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.3",
+    "@babel/preset-env": "^7.23.3",
+    "babel-polyfill": "^6.26.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "typescript": "^5.3.2"
+  }
+}
